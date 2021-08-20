@@ -1,0 +1,14 @@
+{
+    "version": "0.17.5",
+    "project": {
+        "name": "TW - ReactPHP",
+        "link": "{{ REPLACE_WITH_YOUR_REPO_LINK }}"
+    },
+    "course": {
+        "name": "TW - ReactPHP",
+        "link": "https://www.treinaweb.com.br/blog/introducao-a-programacao-assincrona-em-php-usando-o-reactphp/",
+        "type": "article",
+        "multiple": true
+    },
+    "vcs": "false"
+}
