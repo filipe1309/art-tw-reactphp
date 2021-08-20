@@ -35,6 +35,18 @@ cd {{ REPLACE_WITH_YOUR_REPO_NAME }}
 
 ```sh
 docker-compose up
+
+awk 'BEGIN { n = 1; while (n < 10000000) print (n++) }' > src/streams/numbers.txt
+
+docker exec -it 907e5782e57b php src/event-loop/periodic-timer.php
+docker exec -it 907e5782e57b php src/event-loop/timer.php
+
+docker exec -it 907e5782e57b php src/streams/big-file-no-stream.php
+docker exec -it 907e5782e57b php src/streams/readable-resource-stream.php
+docker exec -it 907e5782e57b php src/streams/readable-resource-stream-filesystem.php
+
+docker exec -it 907e5782e57b php src/http/verify-links-no-http.php
+docker exec -it 907e5782e57b php src/http/verify-links-with-http.php
 ```
 
 > Access http://localhost:8000
