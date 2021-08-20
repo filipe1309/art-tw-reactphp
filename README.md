@@ -72,8 +72,8 @@ Please make sure to update tests as appropriate. -->
 ## About Me
 
 <p align="center">
-    <a style="font-weight: bold" href="https://www.linkedin.com/in//">
-    <img style="border-radius:50%" width="100px; "src="https://github.com/.png"/>
+    <a style="font-weight: bold" href="https://www.linkedin.com/in/filipe1309/">
+    <img style="border-radius:50%" width="100px; "src="https://github.com/filipe1309.png"/>
     </a>
 </p>
 
